@@ -7,10 +7,11 @@
 
 This repo cotains all assignments , labs , programs that i had implemented it from scratch.
 Contents : 
-	Unit 1 : Introduction to embeddded systems & git commands.
-	Unit 2 : C (basics , arrays & string , functions , union & structure , preprocessor directives , pointers ).
-	Unit 3 : Embedded C (Labs compiled by bash scripting , compiling , debugging and makefile by myself not need to gui or ide).
-	Unit 4 : Data structure (Implementing LIFO and FIFO drivers , Student database project based on singular linked-list , Collision Avoidance project based on state machine ).
-	Unit 5 : First term projects (Project1 read the project's pdf , Project2 about student database based on fifo driver).
-	Unit 6 : MCU Labs (Implement GPIO , EXTI , 7_segment , LCD and Keypad Drivers).
+	Unit 0 : Introduction to embeddded systems & git commands.
+	Unit 1 : C (basics , arrays & string , functions , union & structure , preprocessor directives , pointers ).
+	Unit 2 : Embedded C (Labs compiled by bash scripting , compiling , debugging and makefile by myself not need to gui or ide).
+	Unit 3 : Data structure (Implementing LIFO and FIFO drivers , Student database project based on singular linked-list , Collision Avoidance project based on state machine ).
+	Unit 4 : First term projects (Project1 read the project's pdf , Project2 about student database based on fifo driver).
+	Unit 5 : MCU Labs (Implement GPIO , EXTI , 7_segment , LCD and Keypad Drivers).
+	Unit 6 : MCU Communication (Implement UART , SPI and I2C Drivers).
 
