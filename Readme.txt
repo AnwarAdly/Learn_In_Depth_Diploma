@@ -14,4 +14,5 @@ Contents :
 	Unit 4 : First term projects (Project1 read the project's pdf , Project2 about student database based on fifo driver).
 	Unit 5 : MCU Labs (Implement GPIO , EXTI , 7_segment , LCD and Keypad Drivers).
 	Unit 6 : MCU Communication (Implement UART , SPI and I2C Drivers).
+	Unit 7 : Vector CANoe Project (ECU1 send 1/0 from Accelerator to ECU2 that has Speedometer that reflects speed of vehicle).
 
