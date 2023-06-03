@@ -29,7 +29,6 @@ I2C_Config_t Global_I2C_Config[2] = {NULL , NULL};
  * ====================================================================================================
  */
 
-
 /**================================================================
  * @Fn               -MCAL_I2C_INIT
  * @brief            -Initialize I2C according to the specified parameters
