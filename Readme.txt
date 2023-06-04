@@ -15,4 +15,8 @@ Contents :
 	Unit 5 : MCU Labs (Implement GPIO , EXTI , 7_segment , LCD and Keypad Drivers).
 	Unit 6 : MCU Communication (Implement UART , SPI and I2C Drivers).
 	Unit 7 : Vector CANoe Project (ECU1 send 1/0 from Accelerator to ECU2 that has Speedometer that reflects speed of vehicle).
+<<<<<<< HEAD
 	Unit 8 : Stack_Lab (Create boundaries for MSP and PSP for two tasks , Task Scheduling based on EXTI , Switching between two SP and between User and privileged access levels).
+=======
+
+>>>>>>> fb210dd28ab2eb77f3eda524d4518b48ffafedf0
