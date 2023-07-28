@@ -1,0 +1,235 @@
+17:49:03 **** Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/RCC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/RCC.d" -MT"Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/RCC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:24: Src/GPIO.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** [Src/subdir.mk:26: Src/RCC.o] Error 1
+make: *** [Src/subdir.mk:28: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:49:16 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/RCC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/RCC.d" -MT"Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/RCC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:26: Src/RCC.o] Error 1
+make: *** [Src/subdir.mk:24: Src/GPIO.o] Error 1
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:28: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:51:12 **** Clean-only build of configuration Debug for project DoorLock_Project ****
+make -j4 clean 
+rm -rf *
+ 
+17:51:12 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/RCC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/RCC.d" -MT"Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/RCC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:24: Src/GPIO.o] Error 1
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:28: Src/main.o] Error 1
+make: *** [Src/subdir.mk:26: Src/RCC.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:00:56 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:00:58 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:02:05 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:02:34 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:02:57 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:05:26 **** Incremental Build of configuration Debug for project DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorLock_indication_SWC.d" -MT"Src/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/DoorSensorAbstractionSWC.d" -MT"Src/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/DoorSensorAbstractionSWC.o"
+arm-none-eabi-gcc -gdwarf2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/RTE_gen" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/AutosarIncludeFiles" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/DoorLock_Project/MCAL" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Startup/subdir.mk:18: Startup/startup_stm32f103c6tx.o] Error 1
+make: *** Waiting for unfinished jobs....
+arm-none-eabi-gcc: error: '-gdwarf2' is ambiguous; use '-gdwarf-2' for DWARF version or '-gdwarf -g2' for debug level
+make: *** [Src/subdir.mk:30: Src/DoorLock_indication_SWC.o] Error 1
+make: *** [Src/subdir.mk:32: Src/DoorSensorAbstractionSWC.o] Error 1
+make: *** [Src/subdir.mk:34: Src/GPIO.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:15:42 **** Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f103c6tx.d" -MT"Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Startup/startup_stm32f103c6tx.o" "../Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc -gdwarf-2 "../Src/GPIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/GPIO.d" -MT"Src/GPIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/GPIO.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/RCC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/RCC.d" -MT"Src/RCC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/RCC.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'StartOS':
+../Src/main.c:76:4: warning: implicit declaration of function 'ReadDoorSensor_runnable' [-Wimplicit-function-declaration]
+    ReadDoorSensor_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~
+../Src/main.c:81:4: warning: implicit declaration of function 'DoorLock_indication_runnable' [-Wimplicit-function-declaration]
+    DoorLock_indication_runnable();
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -gdwarf-2 "../Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc -gdwarf-2 "../Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.d" -MT"AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.d" -MT"AUTOSAR_implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/RTE_gen/Rte_DoorSensorAbstractionSWC.o"
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.c: In function 'Rte_Call_DoorLock_indication_SWC_RP_CS_LedSwitch_Led_switch':
+../AUTOSAR_implementation/RTE_gen/Rte_DoorLock_indication_SWC.c:35:2: warning: implicit declaration of function 'Led_Switch_runnable' [-Wimplicit-function-declaration]
+  Led_Switch_runnable(LedState);
+  ^~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/MCAL/DIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/MCAL/DIO.d" -MT"AUTOSAR_implementation/MCAL/DIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/MCAL/DIO.o"
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/DoorLock_indication_SWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/DoorLock_indication_SWC.d" -MT"AUTOSAR_implementation/DoorLock_indication_SWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/DoorLock_indication_SWC.o"
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/DoorSensorAbstractionSWC.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/DoorSensorAbstractionSWC.d" -MT"AUTOSAR_implementation/DoorSensorAbstractionSWC.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/DoorSensorAbstractionSWC.o"
+../AUTOSAR_implementation/MCAL/DIO.c: In function 'DIO_ReadChannel':
+../AUTOSAR_implementation/MCAL/DIO.c:12:10: warning: implicit declaration of function 'MCAL_GPIO_ReadPin'; did you mean 'MCAL_GPIO_readPin'? [-Wimplicit-function-declaration]
+  return (MCAL_GPIO_ReadPin(GPIO_PORT_Used, ID));
+          ^~~~~~~~~~~~~~~~~
+          MCAL_GPIO_readPin
+../AUTOSAR_implementation/MCAL/DIO.c: In function 'DIO_WriteChannel':
+../AUTOSAR_implementation/MCAL/DIO.c:16:2: warning: implicit declaration of function 'MCAL_GPIO_WritePin'; did you mean 'MCAL_GPIO_writePin'? [-Wimplicit-function-declaration]
+  MCAL_GPIO_WritePin(GPIO_PORT_Used, ID, Level);
+  ^~~~~~~~~~~~~~~~~~
+  MCAL_GPIO_writePin
+arm-none-eabi-gcc -gdwarf-2 -o "AUTOSAR_DoorLock_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Learn-in-depth\AUTOSAR_DoorLock_Project\stm32cubeide\AUTOSAR_DoorLock_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AUTOSAR_DoorLock_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+AUTOSAR_implementation/MCAL/DIO.o: In function `DIO_ReadChannel':
+D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/Debug/../AUTOSAR_implementation/MCAL/DIO.c:12: undefined reference to `MCAL_GPIO_ReadPin'
+AUTOSAR_implementation/MCAL/DIO.o: In function `DIO_WriteChannel':
+D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/Debug/../AUTOSAR_implementation/MCAL/DIO.c:16: undefined reference to `MCAL_GPIO_WritePin'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:52: AUTOSAR_DoorLock_Project.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:16:16 **** Incremental Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-gcc -gdwarf-2 "../AUTOSAR_implementation/MCAL/DIO.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/AUTOSAR_Files" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/MCAL" -I"D:/Learn-in-depth/AUTOSAR_DoorLock_Project/stm32cubeide/AUTOSAR_DoorLock_Project/AUTOSAR_implementation/RTE_gen" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"AUTOSAR_implementation/MCAL/DIO.d" -MT"AUTOSAR_implementation/MCAL/DIO.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "AUTOSAR_implementation/MCAL/DIO.o"
+arm-none-eabi-gcc -gdwarf-2 -o "AUTOSAR_DoorLock_Project.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Learn-in-depth\AUTOSAR_DoorLock_Project\stm32cubeide\AUTOSAR_DoorLock_Project\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="AUTOSAR_DoorLock_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: AUTOSAR_DoorLock_Project.elf
+ 
+arm-none-eabi-size   AUTOSAR_DoorLock_Project.elf 
+arm-none-eabi-objdump -h -S  AUTOSAR_DoorLock_Project.elf  > "AUTOSAR_DoorLock_Project.list"
+arm-none-eabi-objcopy  -O binary  AUTOSAR_DoorLock_Project.elf  "AUTOSAR_DoorLock_Project.bin"
+   text	   data	    bss	    dec	    hex	filename
+   1632	      8	   1584	   3224	    c98	AUTOSAR_DoorLock_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: AUTOSAR_DoorLock_Project.bin
+Finished building: AUTOSAR_DoorLock_Project.list
+ 
+ 
+18:16:24 **** Incremental Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-size   AUTOSAR_DoorLock_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1632	      8	   1584	   3224	    c98	AUTOSAR_DoorLock_Project.elf
+Finished building: default.size.stdout
+ 
+18:17:44 **** Incremental Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-size   AUTOSAR_DoorLock_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1632	      8	   1584	   3224	    c98	AUTOSAR_DoorLock_Project.elf
+Finished building: default.size.stdout
+ 
+18:17:56 **** Incremental Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-size   AUTOSAR_DoorLock_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1632	      8	   1584	   3224	    c98	AUTOSAR_DoorLock_Project.elf
+Finished building: default.size.stdout
+ 
+19:32:42 **** Incremental Build of configuration Debug for project AUTOSAR_DoorLock_Project ****
+make -j4 all 
+arm-none-eabi-size   AUTOSAR_DoorLock_Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1632	      8	   1584	   3224	    c98	AUTOSAR_DoorLock_Project.elf
+Finished building: default.size.stdout
+ 
